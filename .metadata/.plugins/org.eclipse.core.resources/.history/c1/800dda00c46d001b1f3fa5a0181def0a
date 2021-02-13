@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class CalculateSurfaceAreaOfHouse {
+
+	public static void main(String[] args) {
+		double length, width, height;
+		double numOfWindow, windowWidth, windowHeight;
+		double noOfDoors, doorWidth, doorHeight;
+		double surfaceArea;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Length of House :");
+		length = scanner.nextDouble();
+		System.out.println("Enter Length of House :");
+		width = scanner.nextDouble();
+		System.out.println("Enter Length of House : ");
+		height = scanner.nextDouble();
+		System.out.println("please entyer noof window, width and height :");
+		numOfWindow = scanner.nextDouble();
+		windowWidth = scanner.nextDouble();
+		windowHeight = scanner.nextDouble();
+		System.out.println("Pleasw enter no of door, width, and height :");
+		noOfDoors = scanner.nextDouble();
+		doorWidth = scanner.nextDouble();
+		doorHeight = scanner.nextDouble();
+		System.out.println((length * width * height+length*height*2));
+
+	}
+}

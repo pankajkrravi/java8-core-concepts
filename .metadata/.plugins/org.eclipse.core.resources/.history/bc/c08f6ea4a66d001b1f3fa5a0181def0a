@@ -1,0 +1,8 @@
+
+public class GrocreryList {
+   
+	   public static void main(String[] args) {
+		double [] prices=new double[05];
+		
+	}
+}

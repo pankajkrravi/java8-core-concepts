@@ -1,0 +1,17 @@
+import java.util.Date;
+
+public class Movie {
+	String movieTitle;
+	String rating;
+	int year;
+	int runTime;
+
+	public Movie(String movieTitle, String rating, int year, int runTime) {
+
+		this.movieTitle = movieTitle;
+		this.rating = rating;
+		this.year = year;
+		this.runTime = runTime;
+	}
+
+}

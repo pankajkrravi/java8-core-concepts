@@ -1,0 +1,10 @@
+
+public class Loops {
+	public static void main(String[] args) {
+       int count=0;
+		do {
+			System.out.println(" print number 5 times");
+			count++;
+		}while()
+	}
+}

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class MaiinRunner {
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(
+				"Please Enter your faburate movie name with following information : A title B. rating C. year D. runtime ");
+			
+	}
+}

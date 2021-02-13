@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+
+public class RealState {
+	public static void main(String[] args) {
+		ArrayList<Property> mls = new ArrayList<Property>();
+		Property property1=new Property(2000, "Land", 5.8);
+	}
+
+}

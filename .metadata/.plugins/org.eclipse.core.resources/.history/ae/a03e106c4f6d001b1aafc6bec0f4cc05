@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class TravelCosts {
+	public static void main(String[] args) {
+            double distance,milesPerGallon,pricePerGallon,totalCost;
+            Scanner scanner=new  Scanner(System.in);
+            distance=scanner.nextDouble();
+            
+	}
+}

@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+/*
+ * This challenge computes and displays the total charges for a hospital stay
+ * The patient might be admitted overnight.  For an overnight stay, we need: 
+ *   The number of days spent in the hospital
+ *   The daily rate
+ *   Medication charges
+ *   Lab service charges
+ */
+public class StayHospital {
+
+	double totalcharges, dailyrate, medicationCharges, labService;
+	Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		double hospitalChgarges;
+		do {
+			if (isOverNightStay() == true) {
+				System.out.println("Enter the cost of Hospital : ");
+			Scanner scanner = new Scanner(System.in);
+			hospitalChgarges = scanner.nextDouble();
+			}
+			else {
+				hospitalChgarges=0;
+			}
+		} while ();
+	}
+
+	public static boolean isOverNightStay() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Is this an Overnight stay ?? say (Y/N)");
+		String isOveerNightStay = scanner.next();
+		if (isOveerNightStay.equalsIgnoreCase("y"))
+			return true;
+		else
+			return false;
+	}
+
+	public double totalCostCalculate(double hospitalChgarges) {
+		System.out.println("Enter Medication charges :");
+		medicationCharges = scanner.nextDouble();
+		System.out.println("please enter lab srvice charges :");
+		labService = scanner.nextDouble();
+		totalcharges = hospitalChgarges+medicationCharges + labService;
+		return totalcharges;
+	}
+}

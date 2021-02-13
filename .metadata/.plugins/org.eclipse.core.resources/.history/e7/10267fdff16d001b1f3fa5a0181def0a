@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class MaiinRunner {
+
+	public static void main(String[] args) {
+		String movieTitle, rating;
+		int year, runTime;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(
+				"Please Enter your faburate movie name :  ");
+		movieTitle = scanner.next();
+		rating = scanner.nextLine();
+		year = scanner.nextInt();
+		runTime = scanner.nextInt();
+		Movie faburateMovie = new Movie(movieTitle, rating, year, runTime);
+		System.out.println(faburateMovie.toString());
+	}
+}

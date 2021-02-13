@@ -1,0 +1,26 @@
+
+public class SelectionSort {
+	public static void main(String[] args) {
+		int numbers[] = { 90, 33, 56, 1, 60, 80, 44, 67 };
+		selectionSort(numbers);
+		for (int i = 0; i < numbers.length - 1; i++) {
+			System.out.println(numbers[i]);
+		}
+	}
+
+	private static void selectionSort(int[] numbers) {
+		for (int i = 0; i < numbers.length - 1; i++) {
+			int index = i;
+			for (int j = i + 1; j < numbers.length; j++) {
+				if (numbers[j] < numbers[inderx]) {
+					inderx = j; // searching for lowest index
+					numbers[j] = numbers[j + 1];
+				}
+			}
+			int smallerNumber = numbers[index];
+			numbers[index] = numbers[i];
+			numbers[i] = smallerNumber;
+		}
+
+	}
+}

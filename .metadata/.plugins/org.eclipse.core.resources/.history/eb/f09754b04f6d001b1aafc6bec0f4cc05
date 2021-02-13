@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class TravelCosts {
+	public static void main(String[] args) {
+            double distance,milesPerGallon,pricePerGallon,totalCost;
+            Scanner scanner=new  Scanner(System.in);
+            System.out.println("Enter total distance in miles : ");
+            distance=scanner.nextDouble();
+            
+	}
+}

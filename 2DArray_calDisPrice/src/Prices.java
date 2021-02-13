@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+/*
+ * This program has a 2-D array to represent prices and discounts of 30 %
+ */
+public class Prices {
+	public static void main(String[] args) {
+
+		Scanner scann = new Scanner(System.in);
+		double prices[][] = new double[5][2];
+		for (int i = 0; i < prices.length; i++) {
+			System.out.println("Enter Original Pricers : ");
+			prices[i][0] = scann.nextDouble();
+			prices[i][1] = prices[i][0]*.70;
+		}
+		//print prices
+		for (int i = 0; i < prices.length; i++) {
+			System.out.println(" Original prices "+prices[i][0]+" \tdiscounted price "+prices[i][1]);
+		}
+	}
+}

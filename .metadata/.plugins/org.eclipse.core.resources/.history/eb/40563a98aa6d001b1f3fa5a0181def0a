@@ -1,0 +1,7 @@
+
+public class DataConversion {
+	public static void main(String[] args) {
+		System.out.println((3 + 5 + 8) / 3); //added ass integer 
+		System.out.println((3 + 5 + 8) / 3.0); //widining the result into decimal 
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class CalculateSurfaceAreaOfHouse {
+
+	public static void main(String[] args) {
+		double length, width, height;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Length of House :");
+		length = scanner.nextDouble();
+		System.out.println("Enter Length of House :");
+		width = scanner.nextDouble();
+		System.out.println("Enter Length of House : ");
+		height = scanner.nextDouble();
+		System.out.println("Area of House = "+(length*width*height));
+	}
+}

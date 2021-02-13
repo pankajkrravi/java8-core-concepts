@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+/*
+ * This program has a 2-D array to represent prices and discounts
+ */
+public class Prices {
+	public static void main(String[] args) {
+
+		Scanner scann = new Scanner(System.in);
+	}
+}

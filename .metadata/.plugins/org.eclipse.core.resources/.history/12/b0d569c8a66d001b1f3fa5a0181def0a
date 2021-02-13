@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class GrocreryList {
+
+	public static void main(String[] args) {
+		double[] prices = new double[05];
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter 5 prices :");
+
+	}
+}

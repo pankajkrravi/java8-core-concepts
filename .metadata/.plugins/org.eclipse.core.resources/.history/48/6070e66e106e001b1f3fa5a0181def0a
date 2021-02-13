@@ -1,0 +1,13 @@
+
+public class Recursion {
+	public static void main(String[] args) {
+
+	}
+
+	public static void countDown(int number) {
+		if (number == 0)
+			System.out.println("BlastOFF");
+		else
+			countDown(number - 1);
+	}
+}

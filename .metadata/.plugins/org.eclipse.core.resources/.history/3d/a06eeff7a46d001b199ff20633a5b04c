@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TravelCosts {
+	public static void main(String[] args) {
+		double distance, milesPerGallon, pricePerGllon, totalCost;
+		String vehicleType;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter total distance in miles : ");
+		distance = scanner.nextDouble();
+		System.out.println("Enter milesPerGallon : ");
+		milesPerGallon = scanner.nextDouble();
+		System.out.println("Enter the price of one gallon ");
+		pricePerGllon = scanner.nextDouble();
+		totalCost = (distance / milesPerGallon) * pricePerGllon;
+            System.out.println("The tgrip is going to cost :  "+totalCost);
+            System.out.println();
+	}
+}

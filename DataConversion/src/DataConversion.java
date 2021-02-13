@@ -1,0 +1,20 @@
+
+public class DataConversion {
+	public static void main(String[] args) {
+		System.out.println((3 + 5 + 8) / 3); // added ass integer
+		System.out.println((3 + 5 + 8) / 3.0); // widining the result into decimal
+		double volume = 4 / 3 * Math.PI * 10 * 10 * 10;
+		double real_Volume = 4 / 3.0 * Math.PI * 10 * 10 * 10;
+		System.out.println("The volume of a sphere with radius 10  is " + volume);
+		System.out.println("The Real volume of a sphere with radius 10  is " + real_Volume);
+		// calculating celsius from farenheit
+		double farenheit = 212;
+		double worng_celsius = (farenheit - 32) * (5 / 9); // 5/9 gives zero always
+		System.out.println("WRONG NCONVERSION in Celsius is : " + worng_celsius);
+		// we can solve this problem by implicit conversion
+		double celsius = (farenheit - 32) * (5 / 9.0);
+
+		System.out.println("Celsius is : " + celsius);
+
+	}
+}

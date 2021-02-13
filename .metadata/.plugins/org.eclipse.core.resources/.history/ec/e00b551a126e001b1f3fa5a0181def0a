@@ -1,0 +1,12 @@
+
+public class SelectionSort {
+    public static void main(String[] args) {
+		int numbers[ ] = {90,33,56,1,60,80,44,67};
+		selectionSort(numbers);
+	}
+
+	private static void selectionSort(int[] numbers) {
+		
+		
+	}
+}

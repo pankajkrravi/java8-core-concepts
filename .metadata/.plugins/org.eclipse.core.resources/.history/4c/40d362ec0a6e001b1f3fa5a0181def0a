@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class RealState {
+	public static void main(String[] args) {
+		ArrayList<Property> mls = new ArrayList<Property>();
+		Property property1 = new Property(2000, "Land", 5.8);
+		mls.add(property1);
+		property1 = new Property(50000, "Estate", 4.0, 2, 4);
+		mls.add(property1);
+		System.out.println(mls.toString());
+	}
+
+}

@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class CalculateSurfaceAreaOfHouse {
+   
+	public static void main(String[] args) {
+		double kength,width,height;
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter Length of House");
+	}
+}

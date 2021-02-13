@@ -1,0 +1,9 @@
+import java.util.Date;
+
+public class Movie {
+   String movieTitle,rating;
+   int movierating;
+   Date year
+          runtime;
+   
+}
